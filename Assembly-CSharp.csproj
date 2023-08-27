@@ -36,16 +36,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Interfaces\IPanel.cs" />
-     <Compile Include="Assets\Scripts\Panels\LocationPanel.cs" />
-     <Compile Include="Assets\Scripts\Case.cs" />
-     <Compile Include="Assets\Scripts\Panels\ClientInfoPanel.cs" />
-     <Compile Include="Assets\Scripts\Panels\OverviewPanel.cs" />
-     <Compile Include="Assets\Scripts\Panels\SearchPanel.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
-     <Compile Include="Assets\Scripts\Panels\SelectPanel.cs" />
-     <Compile Include="Assets\Scripts\Panels\TakePhotoPanel.cs" />
      <Compile Include="Assets\Scripts\ADLogin\ADLogin_script.cs" />
+     <Compile Include="Assets\Scripts\Panels\TakePhotoPanel.cs" />
+     <Compile Include="Assets\Scripts\Panels\SearchPanel.cs" />
+     <Compile Include="Assets\Scripts\Case.cs" />
+     <Compile Include="Assets\Scripts\Panels\OverviewPanel.cs" />
+     <Compile Include="Assets\Scripts\Panels\SelectPanel.cs" />
+     <Compile Include="Assets\Scripts\Panels\ClientInfoPanel.cs" />
+     <Compile Include="Assets\Scripts\Panels\LocationPanel.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\IPanel.cs" />
+     <Compile Include="Assets\Scripts\ADLogin\RedirectListener.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
