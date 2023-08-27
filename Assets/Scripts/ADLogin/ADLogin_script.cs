@@ -6,10 +6,10 @@ using System.Collections.Generic;
 
 public class ADLogin_script : MonoBehaviour
 {
-    private string clientId = "f75681b3-d0b8-4e50-8d66-43f1b7399f04";
-    private string clientSecret = "i3y8Q~NzKUo2uZO~Xbz~uZuliXYhKODRymohycBJ"; // Optional
+    private string clientId = "-d0b8-4e50-8d66-43f1b7399f04";
+    private string clientSecret = "~NzKUo2uZO~Xbz~uZuliXYhKODRymohycBJ"; // Optional
     private string redirectUri = "VCAuthApp://callback/";
-    private string tenantId = "79f292be-a8c7-4251-99b0-2af7280bcfe1";
+    private string tenantId = "-a8c7-4251-99b0-2af7280bcfe1";
     private string authorizationCode; // Set this after callback
     private string accessToken;
     private string callbackUrl = "VCAuthApp://callback/?code=";
